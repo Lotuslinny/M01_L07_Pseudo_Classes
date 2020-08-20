@@ -1,0 +1,41 @@
+ul li{
+  display: inline;
+  margin: 0 10px 0 0;
+}
+.link1 a:hover {
+  color: lightskyblue;
+  font-weight: bold;
+}
+.link2 a:active {
+  color: red;
+  font-style: italic;
+}
+
+.link4 a:hover {
+  background-color: lightblue;
+}
+textarea:focus {
+  color: green;
+  font-size: 20px;
+}
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+  background-color: darkblue;
+  color: #ffffff;
+}
+textarea {
+  margin: 10px;
+}
+.currentPage {
+  background-color: #6699cc;
+}
+/* werkt deze hieronder nou goed? */
+.link3 a:visited {
+  color: rgb(201, 236, 45);
+}
+.echtwel:hover {
+    background-color: lightslategray;
+    border: 2px dashed #4afee4;
+}
